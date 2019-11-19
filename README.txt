@@ -1,7 +1,4 @@
-# Subjective Answer Evaluation System
-
-Python implementation for evaluating the subjective answers written by students based on model answers provided. 
- 
+# Subjective Classification as follow up, new patient tagging
 
 # Dependencies
 
@@ -13,10 +10,9 @@ Python implementation for evaluating the subjective answers written by students 
 
 # Usage
 
-cd path/to/Evaluation
 python evaluate_poc.py model\1.txt student\st_1.txt 5
   
-First argument to evaluate_poc.py is the model answer, 2nd argument is student answer and third argument is total marks to evaluate on.
+First argument to follow-up.py is the model greetings, 2nd argument is doctor-patient conversation.
 
 # Output
 
