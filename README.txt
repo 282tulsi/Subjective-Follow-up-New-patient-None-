@@ -1,6 +1,6 @@
-# Subjective Classification as follow up, new patient tagging
+##Subjective Classification as follow up, new patient tagging
 
-# Dependencies
+##Dependencies
 
 - python >= 3.5
 - NLTK library
@@ -8,13 +8,13 @@
 - numpy==1.14.0
 - pandas==0.22.0
 
-# Usage
+##Usage
 
 python evaluate_poc.py model\1.txt student\st_1.txt 5
   
 First argument to follow-up.py is the model greetings, 2nd argument is doctor-patient conversation.
 
-# Output
+##Output
 
 Ouput will be displayed in terminal. It shows the 
 - model answer entities
